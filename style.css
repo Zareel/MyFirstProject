@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat:wght@400;900&family=Noto+Sans:wght@500;900&family=Open+Sans:wght@400;500&family=Orbitron:wght@400;600&family=Oswald:wght@400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'orbitron';
+    background-color: #fff;
+}
+.container{
+    width: 85vw;
+    margin: 2em auto;
+}
+
+.navbar-container{
+    width: 100%;
+    overflow: hidden;
+    align-items: baseline;
+}
+.navbar-container img {
+    float: left;
+}
+  
+.list {
+    float: left;
+    list-style-type: none;
+    margin: 1.5em 11em;
+    
+}
+  
+.list-item {
+    display: inline;
+    margin-right: 2.2em;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.list-item:hover{
+    cursor: pointer;
+    color: gray;
+}
+  
+.list-item:first-child{
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-style: bold;
+} 
+  
+.search-icon {
+    float: left;
+    width: 20px;
+    padding-top: 1em;
+    margin-left: 2.5em;
+    margin-top: 0.2em;
+}
+.search-icon svg {
+    width: 100%;
+}
+  
+.nav-button {
+    background-color: transparent;
+    border: 2px solid #1f1f1f;
+    padding: 0.2em 2em;
+    border-radius: 8px;
+    margin-top: 1em;
+    margin-left: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+  
+.nav-button:hover {
+    background-color:gray;
+    color: white;
+    cursor: pointer;
+}
+  
+img[src="/assets/squares.png"] {
+    position: absolute;
+    left: 210px;
+    top: 320px;
+    width: 280px;
+}
+  
+img[src="/assets/Image.png"] {
+    position: relative;
+    left: 10px;
+    top: 45px;
+    width: 330px;
+}
+  
+img[src="/assets/globe.png"] {
+    position: absolute;
+    left: 730px;
+    top: 115px;
+    width: 60px;
+}
+img[src="/assets/start.png"] {
+    position: absolute;
+    left: 1300px;
+    top: 170px;
+    width: 45px;
+}
+  
+.hero-container-right {
+    position: absolute;
+    top:230px;
+    left:600px;
+}
+  .hero-heading {
+    font-size: 45px;
+}
+.hero-description {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    width: 550px;
+    margin-top: 40px;
+}
+  
+.button-email {
+    margin-left: 125px;
+    font-size: 18px;
+    color: gray;
+    letter-spacing: 0.1rem;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+.button-email:hover{
+    background-color: gray;
+    color: #fff;
+    cursor: pointer;
+}
+  
+.button-join {
+    background-color: #1f1f1f;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 0.1rem;
+    border-radius: 5px;
+    margin-left: 0.5em;
+    margin-bottom: 60px;
+}
+.button-join:hover{
+    background-color:gray;
+    color: #1f1f1f;
+}
+  
+.contact-heading {
+    margin-left: 250px;
+    font-family: monospace;
+    font-size: 20px;
+    font-style: normal;
+    color: gray;
+}
+.contact-heading:hover{
+    color: #1f1f1f;
+}
+.icons {
+    margin-top: 1em;
+    margin-left: 200px;
+}
+  
+
+ 
