@@ -4,6 +4,6 @@
 
 ![badge](https://img.shields.io/badge/LearnCodeOnline-iNeuron-green)
 
-## Here is my project #01, Future Trend Landing Page- Website. This assignment is a part of the BootCamp
+## Here is my project #01, Street Style Landing Page- Website. This assignment is a part of the BootCamp
 
 ![image](./assets/01-StreetStyleLandingPage.png)
